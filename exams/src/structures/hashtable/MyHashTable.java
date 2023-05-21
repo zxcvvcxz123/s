@@ -104,7 +104,7 @@ public class MyHashTable<K, V> {
     }
     
     public static void main(String[] args) {
-        MyHashTable<String, String> myHashtable = new MyHashTable<>(10);
+        MyHashTable<String, String> myHashtable = new MyHashTable<>();
         myHashtable.put("key1", "value1");
         myHashtable.put("key2", "value2");
         myHashtable.put("key3", "value3");
