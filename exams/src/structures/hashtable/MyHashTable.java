@@ -102,4 +102,21 @@ public class MyHashTable<K, V> {
     public int size() {
         return size;
     }
+    
+    public static void main(String[] args) {
+        MyHashTable<String, String> myHashtable = new MyHashTable<>(10);
+        myHashtable.put("key1", "value1");
+        myHashtable.put("key2", "value2");
+        myHashtable.put("key3", "value3");
+        myHashtable.put("key4", "value4");
+
+        System.out.println("Value of key1: " + myHashtable.get("key1"));
+        System.out.println("Value of key2: " + myHashtable.get("key2"));
+        System.out.println("Value of key3: " + myHashtable.get("key3"));
+        System.out.println("Value of key4: " + myHashtable.get("key4"));
+
+        myHashtable.remove("key2");
+        System.out.println("After removal - value of key2: " + myHashtable.get("key2"));
+    }
+    
 }
