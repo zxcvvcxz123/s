@@ -1,0 +1,24 @@
+<school>
+    <student id="1">
+        <name>John Doe</name>
+        <subject>
+            <name>Mathematics</name>
+            <mark>85</mark>
+        </subject>
+        <subject>
+            <name>Science</name>
+            <mark>90</mark>
+        </subject>
+    </student>
+    <student id="2">
+        <name>Jane Doe</name>
+        <subject>
+            <name>Mathematics</name>
+            <mark>95</mark>
+        </subject>
+        <subject>
+            <name>Science</name>
+            <mark>100</mark>
+        </subject>
+    </student>
+</school>
